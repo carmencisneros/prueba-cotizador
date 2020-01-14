@@ -101,4 +101,12 @@ $( document ).ready(function() {
         }
 
     });
+
+    $('select').each(function () {
+     config[this.name] = this.value;
+     if (this.value == "") {
+        $('.'+this.name).css('display', 'block');
+        cantidadinputs++
+    }
+    });
 });
