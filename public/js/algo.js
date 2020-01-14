@@ -96,17 +96,16 @@ $( document ).ready(function() {
             cantidadinputs++
          }
         });
+        $('select').each(function () {
+            config[this.name] = this.value;
+            if (this.value == "") {
+                $('.'+this.name).css('display', 'block');
+                cantidadinputs++
+            }
+        });
+
         if (cantidadinputs == 0) {
             $(".formulario").submit();
         }
-
-    });
-
-    $('select').each(function () {
-     config[this.name] = this.value;
-     if (this.value == "") {
-        $('.'+this.name).css('display', 'block');
-        cantidadinputs++
-    }
     });
 });

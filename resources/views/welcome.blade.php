@@ -137,8 +137,9 @@
                                     <option value="">Selecciona tu edad</option>
                                     <option>18<option>19<option>20<option>21<option>22<option>23<option>24<option>25<option>26<option>27<option>28<option>29<option>30<option>31<option>32<option>33<option>34<option>35<option>36<option>37<option>38<option>39<option>40<option>41<option>42<option>43<option>44<option>45<option>46<option>47<option>48<option>49<option>50<option>51<option>52<option>53<option>54<option>55<option>56<option>57<option>58<option>59<option>60<option>61<option>62<option>63<option>64<option>65<option>66<option>67<option>68<option>69<option>70<option>71<option>72<option>73<option>74<option>75<option>76<option>77<option>78<option>79<option>80<option>81<option>82<option>83<option>84<option>85<option>86<option>87<option>88<option>89<option>90<option>91<option>92<option>93<option>94<option>95<option>96<option>97<option>98<option>99
                                 </select>
-                                <small class="form-text text-danger error-marcas" style="display:none">
+                                <small class="form-text text-danger edad" style="display:none">
                                     <i class="fa fa-exclamation-triangle"> </i>
+                                    <span>El campo edad es requerido</span>
                                 </small>
                             </div>
                             <div class="col-12 col-sm-12 col-md-4 m_pt">
@@ -147,8 +148,9 @@
                                     <option value="MASCULINO">Masculino
                                     <option value="FEMENINO">Femenino
                                 </select>
-                                <small class="form-text text-danger" style="display:none">
+                                <small class="form-text text-danger genero" style="display:none">
                                     <i class="fa fa-exclamation-triangle"> </i>
+                                    <span>El campo género es requerido</span>
                                 </small>
                             </div>
                             <div class="col-12 col-sm-12 col-md-4 m_pt">
